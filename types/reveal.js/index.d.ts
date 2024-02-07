@@ -793,7 +793,7 @@ declare namespace Reveal {
          *
          * @defaultValue `960`
          */
-        width?: number;
+        width?: number | string;
 
         /**
          * The "normal" size of the presentation, aspect ratio will be preserved
@@ -803,7 +803,7 @@ declare namespace Reveal {
          *
          * @defaultValue `700`
          */
-        height?: number;
+        height?: number | string;
 
         /**
          * Factor of the display size that should remain empty around the content
